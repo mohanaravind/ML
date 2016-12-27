@@ -1,0 +1,78 @@
+{
+  "env": {
+    "browser": true
+  },
+  "globals": {
+    "define": false,
+    "require": false
+  },
+  "rules": {
+    "strict": 0,
+    "semi": 0,
+    "linebreak-style": 2,
+    "curly": 2,
+    "max-len": [
+      2,
+      {
+        "code": 200,
+        "ignoreComments": true
+      }
+    ],
+    "comma-style": [
+      2,
+      "first"
+    ],
+    "no-multi-str": 0,
+    "indent": [
+      2,
+      4,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "camelcase": 2,
+    "new-cap": 2,
+    "no-undef": 2,
+    "no-unused-vars": 2,
+    "no-use-before-define": [
+      2,
+      {
+        "functions": false
+      }
+    ],
+    "block-scoped-var": 0,
+    "no-loop-func": 0,
+    "wrap-iife": [
+      2,
+      "any"
+    ],
+    "guard-for-in": 2,
+    "eqeqeq": 2,
+    "no-eq-null": 0,
+    "no-eval": 0,
+    "no-bitwise": 0,
+    "no-caller": 0,
+    "no-empty": 0,
+    "no-new": 0,
+    "no-plusplus": 0,
+    "quotes": 0,
+    "max-params": 0,
+    "max-depth": 0,
+    "max-statements": 0,
+    "complexity": 0,
+    "no-cond-assign": [
+      2,
+      "except-parens"
+    ],
+    "no-debugger": 0,
+    "no-unused-expressions": 2,
+    "no-iterator": 2,
+    "no-proto": 2,
+    "no-script-url": 2,
+    "no-shadow": 0,
+    "dot-notation": 0,
+    "no-new-func": 2,
+    "no-new-wrappers": 2,
+    "no-invalid-this": 2
+  }
+}
